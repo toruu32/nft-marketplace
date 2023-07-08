@@ -87,6 +87,7 @@ body {
 }
 
 .hero {
+    margin-bottom: 184px;
     margin-top: 120px;
 }
 
@@ -282,11 +283,229 @@ body {
     color: var(--white-white-stich, #FFFFFD);
     font-family: Inter;
     font-size: 16px;
-    font-style: normal; 
+    font-style: normal;
     font-weight: 400;
     line-height: 160%;
 }
 
-.border-right{
+.border-right {
     border-right: 1px solid #D6EF0E;
+}
+
+.artofweek__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.artofweek__item-inner {
+    padding: 20px;
+}
+
+.artofweek__item-img {
+    margin-bottom: 24px;
+}
+
+.artofweek {
+    margin-bottom: 184px;
+}
+
+.artofweek__item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.artofweek__item-title {
+    color: var(--white-white-stich, #FFFFFD);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.artofweek__item-price {
+    color: var(--white-white-stich, #FFFFFD);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.artofweek__item-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.artofweek__item-endtext {
+    color: var(--white-dissable, #838382);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 4px;
+}
+
+.artofweek__item-endtime {
+    color: var(--white-white-stich, #FFFFFD);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.artofweek__item-endtime::before {
+    content: url('../images/icon_time.svg');
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+}
+
+.artofweek__item-price::before {
+    content: url('../images/eth__icon.svg');
+    display: inline-block;
+    padding-right: 2px;
+    vertical-align: middle;
+}
+
+.artofweek__item-placebid {
+    padding: 12px 40px;
+    border-radius: 8px;
+    border: 1px solid #D6EF0E;
+    color: #D6EF0E;
+    font-family: Inter;
+    font-size: 16px;
+    background: none;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.artofweek__item-placebid:hover {
+    background: #D6EF0E;
+    color: #fff;
+}
+
+.artofweek__header {
+    margin-bottom: 64px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.artofweek__header-title {
+    width: 506px;
+    color: #fff;
+    font-family: Canela;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.artofweek__header-title span {
+    color: #D6EF0E;
+}
+
+.artofweek__header-btn {
+    padding: 12px 40px;
+    border-radius: 8px;
+    background: #D6EF0E;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    transition: all .2s;
+}
+
+.artofweek__item {
+    border-radius: 28px;
+    border-top: 1px solid #D6EF0E;
+    background: var(--background-background-4, #131E3A);
+}
+
+.artofweek__header-link {
+    display: inline-block;
+    align-self: flex-end;
+}
+
+.artofweek__header-btn:hover {
+    background: none;
+    color: #D6EF0E;
+    outline: 1px solid #D6EF0E;
+}
+
+.sell__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sell__info {
+    width: 426px;
+}
+
+.sell__info-title {
+    color: #FFFFFD;
+    font-family: Canela;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.sell__info-title span {
+    color: #D6EF0E;
+}
+
+.sell__info-descr {
+    color: var(--white-white-stich, #FFFFFD);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 40px;
+}
+
+.sell__info-nav {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.sell {
+    margin-bottom: 184px;
+}
+
+.sell__info-nav-createnow {
+    padding: 12px 40px;
+    border-radius: 8px;
+    background: #D6EF0E;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.sell__info-nav-learnmore {
+    color: var(--white-white-stich, #FFFFFD);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
 }
