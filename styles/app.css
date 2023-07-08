@@ -397,7 +397,6 @@ body {
 .artofweek__header {
     margin-bottom: 64px;
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
 }
 
@@ -499,13 +498,114 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
+    transition: all .2s;
+}
+
+.sell__info-nav-createnow:hover {
+    background: transparent;
+    color: #D6EF0E;
+    outline: 1px solid #D6EF0E;
+}
+
+.sell__info-nav-learnmore:hover {
+    color: #D6EF0E;
 }
 
 .sell__info-nav-learnmore {
+    transition: all .2s;
     color: var(--white-white-stich, #FFFFFD);
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
+}
+
+.popular {
+    margin-bottom: 184px;
+}
+
+.popular__header {
+    display: flex;
+    margin-bottom: 64px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular__header-title span {
+    color: #D6EF0E;
+}
+
+.popular__header-title {
+    width: 307px;
+    color: #FFFFFD;
+    font-family: Canela;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.popular__header-btn {
+    border-radius: 8px;
+    background: #D6EF0E;
+    padding: 12px 40px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    transition: all .2s;
+    line-height: 120%;
+}
+
+.popular__header-btn:hover {
+    background: transparent;
+    color: #D6EF0E;
+    outline: 1px solid #D6EF0E;
+}
+
+.popular__inner {
+    /* display: flex; */
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.popular__item-inner {
+    display: flex;
+    gap: 12px;
+}
+
+.popular__item-tag {
+    color: var(--white-white-stich, #FFFFFD);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 4px;
+}
+
+.popular__item-owner {
+    color: var(--white-white-stich, #FFFFFD);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.popular__item-img {
+    position: relative;
+}
+
+.popular__item-inner {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+}
+
+.popular__items {
+    display: flex;
+    justify-content: space-between;
 }
