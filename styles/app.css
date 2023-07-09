@@ -268,6 +268,10 @@ body {
     gap: 94px;
 }
 
+.short-text {
+    display: none;
+}
+
 .hero__stats {}
 
 .hero__stats-item {
@@ -955,15 +959,18 @@ body {
         justify-content: center;
         gap: 30px;
     }
-    .sell__inner{
+
+    .sell__inner {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 100px;  
+        gap: 100px;
     }
-    .sell__info{
+
+    .sell__info {
         text-align: center;
     }
-    .sell__info-nav{
+
+    .sell__info-nav {
         justify-content: center;
     }
 }
@@ -988,67 +995,134 @@ body {
 }
 
 @media screen and (max-width: 550px) {
-    .artofweek__header-text{
+    .artofweek__header-text {
         font-size: 6em;
     }
 }
 
 @media screen and (max-width: 1110px) {
-    .hero__inner{
+    .hero__inner {
         gap: 50px;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .hero__info{
+
+    .hero__info {
         text-align: center;
     }
-    .hero__info-nav{
+
+    .hero__info-nav {
         justify-content: center;
     }
 }
 
 @media screen and (max-width: 1325px) {
-    .subscribe__inner{
+    .subscribe__inner {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .subscribe__info{
+
+    .subscribe__info {
         text-align: center;
     }
-    .subscribe__info-inputblock{
+
+    .subscribe__info-inputblock {
         justify-content: center;
     }
-    .subscribe__info-input-btn{
+
+    .subscribe__info-input-btn {
         right: 200px;
     }
 }
 
-@media screen and (max-width: 1050px){
-    .footer__inner{
+@media screen and (max-width: 1050px) {
+    .footer__inner {
         flex-wrap: wrap;
         justify-content: center;
         gap: 40px;
     }
-    .footer__shortinfo{
+
+    .footer__shortinfo {
         text-align: center;
     }
-    .footer__shortinfo-links{
+
+    .footer__shortinfo-links {
         justify-content: center;
     }
-    .footer__main{}
+
 }
 
-@media screen and (max-width: 725px){
-    .footer__main__inner{
+@media screen and (max-width: 725px) {
+    .footer__main__inner {
         flex-wrap: wrap;
         justify-content: center;
         gap: 50px;
     }
-    .copyright__inner{
+
+    .copyright__inner {
         text-align: center;
         display: block;
     }
-    .copyright__privacy{
+
+    .copyright__privacy {
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 937px) {
+    .subscribe__info {
+        max-width: 500px;
+    }
+
+    .subscribe__info-input-btn {
+        right: -10px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .subscribe__image img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .subscribe__info {
+        max-width: 300px;
+    }
+
+    .subscribe__info-input {
+        width: 350px;
+    }
+
+    .subscribe__info-input-btn {
+        right: -40px;
+        padding: 12px 20px;
+    }
+
+    .full-text {
+        display: none;
+    }
+
+    .short-text {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .subscribe__info-input {
+        width: auto;
+    }
+
+    .subscribe__info-input-btn {
+        right: 20px;
+    }
+    .sell__images img{
+        width: 320px !important;
+    }
+}
+
+@media screen and (max-width: 775px){
+    .sell__images img{
+        width: 400px;
     }
 }
