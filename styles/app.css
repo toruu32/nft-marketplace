@@ -272,8 +272,6 @@ body {
     display: none;
 }
 
-.hero__stats {}
-
 .hero__stats-item {
     padding-right: 28px;
 }
@@ -618,6 +616,7 @@ body {
     display: grid;
     grid-gap: 30px;
     grid-auto-columns: 410px;
+
 }
 
 .subscribe__inner {
@@ -973,6 +972,13 @@ body {
     .sell__info-nav {
         justify-content: center;
     }
+
+    .popular__header {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 30px;
+    }
 }
 
 @media screen and (max-width: 887px) {
@@ -1173,5 +1179,20 @@ body {
     .hero__image-bid {
         left: 0;
         bottom: -80px;
+    }
+}
+
+@media screen and (max-width: 1315px) {
+    .popular__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .popular__item-img img {
+        max-width: 100%;
     }
 }
