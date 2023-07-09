@@ -6,6 +6,7 @@
 }
 
 body {
+    color: #fff;
     height: 100vh;
     width: 100%;
     background-color: #090F1D;
@@ -692,4 +693,116 @@ body {
 
 .subscribe {
     margin-bottom: 184px;
+}
+
+.footer {
+    margin-bottom: 48px;
+}
+
+.footer__inner {
+    display: flex;
+    padding-bottom: 48px;
+    border-bottom: 1px solid var(--white-dissable, #838382);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__shortinfo-text {
+    color: var(--white-white-stich, #FFFFFD);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    width: 272px;
+    margin-bottom: 24px;
+}
+
+.footer__shortinfo-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer__shortinfo-link-item {
+
+    background: #fff;
+    border-radius: 5px;
+
+}
+
+.footer__shortinfo-link {}
+
+.footer__main__inner {
+    display: flex;
+    gap: 94px;
+}
+
+
+.footer__main__item-category {
+    color: var(--white-main-white, #FFF);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 24px;
+}
+
+.footer__main__item-links {}
+
+.footer__main__item-link-item {
+    margin-bottom: 8px;
+}
+
+.footer__main__item-link {
+    color: var(--white-white-stich, #FFFFFD);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    transition: all .2s;
+}
+
+.footer__main__item-link:hover {
+    color: #D6EF0E;
+}
+
+.copyright {
+    padding-bottom: 92px;
+}
+
+.copyright__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright__privacy {
+    color: var(--white-white-stich, #FFFFFD);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.copyright__text {
+    color: var(--white-white-stich, #FFFFFD);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.copyright__privacy-text:hover,
+.copyright__privacy-terms:hover {
+    color: #D6EF0E;
 }
