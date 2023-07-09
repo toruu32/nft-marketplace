@@ -184,6 +184,7 @@ body {
 
 .hero__image {
     position: relative;
+    max-width: 100%;
 }
 
 @keyframes spin {
@@ -895,7 +896,7 @@ body {
     transform: translateY(0) rotate(45deg);
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 1095px) {
     .header__burger-btn {
         display: block;
     }
@@ -922,9 +923,11 @@ body {
         font-size: 20px;
         color: #fff;
     }
-    .menu__list-item:hover{
+
+    .menu__list-item:hover {
         color: #090F1D;
     }
+
     .menu__btn {
         background: #090F1D;
         color: #D6EF0E;
@@ -942,5 +945,110 @@ body {
 
     .header.open .menu {
         transform: translateX(100%);
+    }
+}
+
+
+@media screen and (max-width: 1285px) {
+    .artofweek__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .sell__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 100px;  
+    }
+    .sell__info{
+        text-align: center;
+    }
+    .sell__info-nav{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 887px) {
+    .artofweek__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .artofweek__header-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .artofweek__header-text{
+        font-size: 6em;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .hero__inner{
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero__info{
+        text-align: center;
+    }
+    .hero__info-nav{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1325px) {
+    .subscribe__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .subscribe__info{
+        text-align: center;
+    }
+    .subscribe__info-inputblock{
+        justify-content: center;
+    }
+    .subscribe__info-input-btn{
+        right: 200px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .footer__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    .footer__shortinfo{
+        text-align: center;
+    }
+    .footer__shortinfo-links{
+        justify-content: center;
+    }
+    .footer__main{}
+}
+
+@media screen and (max-width: 725px){
+    .footer__main__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    .copyright__inner{
+        text-align: center;
+        display: block;
+    }
+    .copyright__privacy{
+        justify-content: center;
     }
 }
