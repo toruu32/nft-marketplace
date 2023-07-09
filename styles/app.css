@@ -1116,13 +1116,62 @@ body {
     .subscribe__info-input-btn {
         right: 20px;
     }
-    .sell__images img{
+
+    .sell__images img {
         width: 320px !important;
+    }
+
+    .artofweek__item-img img {
+        width: 280px;
+    }
+
+    .artofweek__item-title {
+        font-size: 16px;
+    }
+
+    .artofweek__item-footer {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .artofweek__item-placebid {
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 775px){
-    .sell__images img{
+@media screen and (max-width: 775px) {
+    .sell__images img {
         width: 400px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .artofweek__header-title {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .hero__stats-inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero__image img {
+        width: 300px;
+    }
+
+    .hero__image-star {
+        top: 0;
+        left: -19px;
+        max-width: 100px;
+    }
+
+    .hero__image-bid {
+        left: 0;
+        bottom: -80px;
     }
 }
