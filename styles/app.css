@@ -10,7 +10,9 @@ body {
     height: 100vh;
     width: 100%;
     background-color: #090F1D;
-    /* background-image: url(../images/background.png), lightgray 0px -0.827px / 179.034% 100.035% no-repeat; */
+    background: url(../images/background.jpg), lightgrey 0px -0.827px / 179.034% 100.035% no-repeat;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
 }
 
 .container {
